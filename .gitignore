@@ -3,19 +3,10 @@
 *.o
 *.obj
 *.out
-*.a
-*.so
-*.dll
 
-# Build folders
-build/
-bin/
-
-# Editor / IDE files
+# Editor files
 .vscode/
 .vs/
-*.code-workspace
 
-# OS junk
+# OS files
 Thumbs.db
-.DS_Store

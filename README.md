@@ -1,24 +1,25 @@
 # dsa-cpp-practice
 
-Data structures and algorithms implemented from scratch in C++, for learning how they work internally rather than relying on the STL.
-
-## Build and run
-
-Requires a C++17 compiler (g++ or clang++).
-
-    g++ -std=c++17 -Wall -Wextra data-structures/stack.cpp -o stack
-    ./stack
-
-On Windows (Git Bash), the output is `stack.exe`; run it with `./stack.exe`.
+Data structures and algorithms practice in C++.
 
 ## Contents
 
-### Data structures
-- Stack (`data-structures/stack.cpp`)
+- `data-structures/stack-project.cpp`: stack-based expression machine. Reads the instructions PUSH, ADD, SUB, MUL, DIV, SWAP, DUP and END, and builds the infix, postfix and prefix forms of an expression. Written for a university data structures assignment (operands are single letters A-Z).
 
-### Algorithms
-- (coming soon)
+## Build and run
 
-## Notes
+    g++ -Wall -Wextra data-structures/stack-project.cpp -o stack
+    ./stack.exe
 
-Each structure includes complexity comments on its operations. Time complexities are stated in the code next to each function.
+Then type the instructions one per line, ending with END. Example input:
+
+    PUSH A
+    PUSH B
+    ADD
+    END
+
+Output:
+
+    Infix: (A+B)
+    Postfix: AB+
+    Prefix: +AB
