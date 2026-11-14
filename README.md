@@ -1,6 +1,6 @@
-# dsa-cpp-practice
+# dsa-cpp-practice (Second Year)
 
-Data structures and algorithms practice in C++.
+Data structures and algorithms practices in C++ from my second year of Software Engineering.
 
 ## Contents
 
