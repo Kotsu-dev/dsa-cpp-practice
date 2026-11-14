@@ -1,0 +1,21 @@
+# Compiled output
+*.exe
+*.o
+*.obj
+*.out
+*.a
+*.so
+*.dll
+
+# Build folders
+build/
+bin/
+
+# Editor / IDE files
+.vscode/
+.vs/
+*.code-workspace
+
+# OS junk
+Thumbs.db
+.DS_Store
